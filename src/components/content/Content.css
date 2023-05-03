@@ -1,0 +1,49 @@
+main {
+    margin: 20px;
+  }
+  
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .card button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .card button:hover {
+    background-color: #555;
+  }
+  
+  .card.best-seller {
+    border: 2px solid #f90;
+  }
+  
+  .card.best-seller h2 {
+    color: #f90;
+  }
